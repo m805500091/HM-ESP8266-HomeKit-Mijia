@@ -39,7 +39,7 @@ static uint32_t next_heap_millis = 0;
 
 //引脚说明
 /******
-15 -> #D8
+ 1 -> #TX
  5 -> #D1
 14 -> #D5
 12 -> #D6
@@ -47,7 +47,7 @@ static uint32_t next_heap_millis = 0;
  4 -> #D2
 *******/
 
-#define PIN_SWITCH1 15
+#define PIN_SWITCH1 1
 #define PIN_SWITCH2 5
 #define PIN_SWITCH3 14 
 #define PIN_SWITCH4 12
