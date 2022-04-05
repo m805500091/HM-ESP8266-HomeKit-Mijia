@@ -19,6 +19,19 @@ https://item.taobao.com/item.htm?id=531044202231
 链接：https://pan.baidu.com/s/1J6O2J-2MBaQnINAP1W3gSw?pwd=sssv 
 提取码：sssv
 
+# 引脚
+无线场景第1键  接  开发板的TX
+
+无线场景第2键  接  开发板的D1
+
+无线场景第3键  接  开发板的D5
+
+无线场景第4键  接  开发板的D6
+
+无线场景第5键  接  开发板的D7
+
+无线场景第6键  接  开发板的D2
+
 
 # 配网
 当供电后将创建WIFI，连接可自动弹出配网页面，如未弹出可连接wifi后浏览器访问：http://192.168.4.1
