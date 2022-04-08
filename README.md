@@ -12,7 +12,7 @@
 
 其次还需要Aqara&Opple六键无线场景开关一个（拆解）
 
-# 开发工具
+# 工具
 链接：https://pan.baidu.com/s/1J6O2J-2MBaQnINAP1W3gSw?pwd=sssv 
 提取码：sssv
 
