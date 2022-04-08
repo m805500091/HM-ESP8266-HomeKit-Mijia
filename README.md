@@ -5,13 +5,10 @@
 
 
 # 材料
-首先你需要准备一个ESP8266开发板，推荐mini，我使用的是ESP8266MOD
+首先你需要准备一个ESP8266开发板
 
-![image](https://gd3.alicdn.com/imgextra/i1/107845380/O1CN01sav12t1pc5LmfFO1b_!!107845380.jpg_400x400.jpg)
 ![image](https://img.alicdn.com/imgextra/i4/2613443097/O1CN01Ku8MWj1YkTMVaa5GB_!!2613443097.jpg)
 
-https://item.taobao.com/item.htm?id=531044202231
-（8.88元）
 
 其次还需要Aqara&Opple六键无线场景开关一个（拆解）
 
@@ -41,6 +38,9 @@ HomeKit配对八位数码在配网页面中已显示，如果未显示就是：1
 # 写入固件
 将HM.bin写入0x00000
 ![image](https://img.alicdn.com/imgextra/i1/2613443097/O1CN01CeiRWQ1YkTMf7g6cD_!!2613443097.png)
+
+# Arduino
+![image](https://img.alicdn.com/imgextra/i4/2164592911/O1CN01Kwq2g21XNHhCVy6Kb_!!2164592911.png)
 
 # 联系方式
 V：m805500091
