@@ -29,6 +29,9 @@
 
 无线场景第6键  接  开发板的D2
 
+# 教程
+
+https://www.bilibili.com/read/readlist/rl543714
 
 # 配网
 当供电后将创建WIFI，连接可自动弹出配网页面，如未弹出可连接wifi后浏览器访问：http://192.168.4.1
