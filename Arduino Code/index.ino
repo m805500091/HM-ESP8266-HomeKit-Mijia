@@ -117,6 +117,7 @@ void initWebServer(void) {
   Serial.println("HTTP ok");
 }
 
+
 //初始化DNS服务器
 void initDNS(void) {
   //判断将所有地址映射到esp8266的ip上是否成功
@@ -128,6 +129,7 @@ void initDNS(void) {
     Serial.println("DNS err.");
   }
 }
+
 
 // 连接wifi
 void connectNewWifi(void) {
@@ -159,14 +161,8 @@ void connectNewWifi(void) {
     Serial.print(".");
   }
 
-
-
   if (WiFi.status() == WL_CONNECTED) {   //如果连接上 就输出IP信息 防止未连接上break后会误输出
-    Serial.println("");
-    Serial.println("wifi ok!");
-    Serial.println("ip addr:");
     Serial.println(WiFi.localIP());
-    //    server.stop();
   }
 }
 
@@ -562,5 +558,9 @@ void loop() {
   if (WiFi.status() == WL_CONNECTED) {
     my_homekit_loop();
     delay(10);
+  }
+  
+  if (WiFi.status() != WL_CONNECTED) {
+	  connectNewWifi();
   }
 }
